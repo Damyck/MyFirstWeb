@@ -9,8 +9,17 @@
 <html>
   <head>
     <title>Best Webpage Ever</title>
+    <style>
+      a.center {
+        color: blue;
+        text-align: center;
+        width: 50%;
+
+      }
+
+    </style>
   </head>
   <body>
-  <a href="fibonacci.jsp">Fibonacci</a><br><a href="calculadora.jsp">Calculadora</a>
+  <a class=center href="fibonacci.jsp">Fibonacci</a><br><a href="calculadora.jsp">Calculadora</a>
   </body>
 </html>
