@@ -12,6 +12,14 @@
         <servlet-name>fibonacci</servlet-name>
         <url-pattern>/calcular-fibonacci</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>calculadora</servlet-name>
+        <servlet-class>proyecto.calculadora</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>calculadora</servlet-name>
+        <url-pattern>/interfaz-calculadora</url-pattern>
+    </servlet-mapping>
 
 </web-app>
 

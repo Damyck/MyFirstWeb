@@ -10,7 +10,7 @@
 <head>
     <title>Fibonacci nos salvará</title>
     <style>
-        input[type=text], select {
+        input[type=number], select {
             width: 50%;
             align-content: center;
             text-align: center;
@@ -38,7 +38,7 @@
             border-radius: 4px;
             cursor: pointer;
         }
-        input [type=text]:focus{
+        input [type=number]:focus{
             border: 3px solid grey;
         }
 
@@ -51,15 +51,24 @@
             background-color: #f2f2f2;
             padding: 20px;
         }
+
+        h1 {
+            color: #ff893b;
+
+        }
+
     </style>
 </head>
 <body>
 <form action="/calcular-fibonacci">
-    Number of results:<br>
-    <input type="text" name="numFib">
     <br>
-    <br><br>
-    <input type="submit" value="Ejecuta">
+    <br>
+    <h1 align="center">Number of results:</h1>
+   <p align="center">
+       <br>
+       <input type="number" min="0" step="1" name="numFib">
+       <input type="submit" value="Ejecuta">
+   </p>
 </form>
 
 </body>
